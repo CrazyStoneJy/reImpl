@@ -9,7 +9,7 @@ once(event: string, listener: (...args: any[]) => void): void;
 
 removeListener(event: string, listener: (...args: any[]) => void): void;
 off(event: string, listener: (...args: any[]) => void): void;
-removeAllListener(event: string): void;
+removeAllListener(event?: string): void;
 
 emit(event: string, ...args: any[]): void;
 
